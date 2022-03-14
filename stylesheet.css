@@ -1,0 +1,208 @@
+header {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(243, 205, 162);
+}
+
+.logo {
+    width: 150px;
+    margin-top: 8px;
+}
+
+.container {
+    width: 1170px;
+    padding: px;
+    margin: 0 auto;
+    font-family: cooper black;
+    color: rgb(80, 35, 20);
+}
+
+
+.header-left {
+    float: left;
+    padding-right: 25px;
+}
+
+li {
+    float: left;
+    padding: 26px 20px;
+    list-style: none;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.header-right a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(80, 35, 20);
+    display: block;
+}
+
+/* Bagian Promo */
+.promogan {
+    text-align: center;
+    background-color: #F0D290;
+    width: 100%;
+    height: 120px;
+    font-family: cooper black;
+    color: #522414;
+    padding-top: 15px;
+    padding-bottom: 55px;
+    margin: 20px 0;
+}
+
+.promogan h2 {
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+.promogan h3 {
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-style: normal;
+}
+
+input {
+    padding: 5px 10px;
+    width: 45%;
+    border-radius: 10px;
+    border-style: 0px solid black; 
+    margin-right: 10px;
+}
+
+.confirm {
+    cursor: pointer;
+    padding: 6px 20px;
+    background-color: #502314;
+    border-radius: 10px;
+    color: #f3cda2;
+    transition: all 0.4s;
+    font-family: montserrat regular;
+}
+
+.confirm:hover {
+    background-color: rgba(80, 35, 20, 0.8);
+}
+/* end promo */
+
+
+/* Footer  */
+
+
+footer {
+    background-color: darkslategray; 
+    color:rgb(241, 241, 241);
+    height: 200px;
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+.footer-logo {
+    font-size:32px;
+    float:left;
+    padding-bottom: 50px;
+}
+
+/* footer list alamat  */
+.footer-list-alamat {
+    float: right;
+    padding-right: 60px;
+    font-size: 18px;
+}
+
+.section-title {
+    
+    padding-left: 20px;           
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+.footer-list-alamat li {
+    list-style: none;
+    
+    padding-bottom: 5px;
+}
+
+/* footer list kontak  */
+
+.footer-list-kontak {
+    float: right;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 18px;
+}
+
+.section-title-2 {
+    padding-left: 20px;           
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+.footer-list-kontak li {
+    list-style: none;
+    padding-bottom: 5px;
+    
+}
+
+/* .sosial-media {
+   padding-top: 10px;
+    display: flex;
+}
+
+.facebook {
+    color: aqua;
+    padding-right: 22%;
+    padding-left: ;
+    font-size: 30px;
+}
+
+.twitter {
+    color:aqua;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 1px;
+    
+} */
+
+/* .instgram {
+    color: #FF4500;
+    font-size: 27px;
+    padding-right: 10px;
+} */
+
+
+/* css footer list menu */
+
+.footer-list-menu {
+    float: left;
+    padding: 40px 20px 40 px 20px;
+
+    font-size: 18px;
+
+}
+
+.section-list-menu {
+    padding-left: 20px;           
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.footer-list-menu li  {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
